@@ -77,6 +77,24 @@ h1{
     /* align-items: center; */
     gap: 10px;
 }
+.hamburger{
+    height: 20px;
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 10px;
+    display: none;
+   
+
+    gap: 2px;
+}
+.line{
+    height: 5px;
+    width: 100%;
+    background-color: black;
+    border-radius: 20px;
+}
 .div{
     display: flex;
     justify-content: center;
@@ -129,4 +147,48 @@ h1{
 .footer h7{
 text-decoration: underline;
 cursor: pointer;
+}
+@media (max-width:300px) {
+    .hamburger{
+       display: flex;
+       cursor: pointer;
+    }
+    ul li{
+        display: none;
+    }
+    .center{
+        display: block;
+        height: auto;
+        background-color: grey;
+        height: auto;
+        
+    }
+    .left{
+        position: relative;
+    }
+    img{
+        position: absolute;
+        width: 150px;
+       top: 20px;
+       left: 5px;
+        
+
+    }
+    .head{
+     margin-top: 200px;
+     width: auto;
+     height: auto;
+     
+    }
+    .div{
+       
+       font-size: smaller;
+       font-weight: 500;
+       width: auto;
+       height: auto;
+    }
+    .footer{
+        display: block;
+       margin-top: 20px;
+    }
 }
