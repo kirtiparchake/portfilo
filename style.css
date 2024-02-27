@@ -36,9 +36,14 @@ ul {
     
 }
 .center{
-    height: 80%;
-    width: 100%;
+    background-color: gray;
+    height: 68%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     
    /* justify-content: center; */
    gap: 5px;
@@ -115,8 +120,8 @@ h1{
     height: 10%;
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: end;
+    align-items :end;
     justify-content: space-between;
     /* background-color: rgb(61, 128, 128); */
    
