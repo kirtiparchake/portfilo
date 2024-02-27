@@ -6,6 +6,7 @@
 body{
     height: 100%;
     width: 100%;
+    background-color: pink;
 }
 .main{
     height: 100vh;
@@ -117,6 +118,7 @@ h1{
     justify-content: center;
     align-items: center;
     justify-content: space-between;
+    /* background-color: rgb(61, 128, 128); */
    
 }
 .footer h7{
